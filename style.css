@@ -116,3 +116,86 @@ input:focus::placeholder {
 #boton-aleatorio:focus {
     outline: none;
 }
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #16161D;
+}
+
+.nav-a {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 0px;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #9866a8;
+    font-size: 19px;
+}
+
+.nav-a:hover {
+    filter: drop-shadow(0 0 10px #dfa7f0);
+}
+
+/* edit */
+
+#div-tabla {
+    margin: 50px;
+}
+
+#input-id {
+    position: absolute;
+    margin: 50px 50px;
+    width: 275px;
+    padding: 5px;
+    border-radius: 25px;
+    text-indent: 10px;
+}
+
+.tabla {
+    margin: 0 auto;
+}
+
+.tabla > th, tr {
+    text-align: center;
+    user-select: text;
+}
+
+.fila {
+    background-color: #ffffff4b;
+}
+
+.id {
+    width: 8vw;
+    margin-bottom: 15px;
+    user-select: none;
+    padding: 15px;
+}
+
+.nombre {
+    width: 14vw;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.receta {
+    width: 45vw;
+    margin-bottom: 15px;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.foto {
+    display: inline-block;
+    width: 25vw;
+    height: 100%;
+    padding: 17px;
+    font-size: 12px;
+    word-wrap: break-word;
+    user-select: text;
+}
+
+.header {
+    font-size: 18px;
+    text-transform: uppercase;
+}
