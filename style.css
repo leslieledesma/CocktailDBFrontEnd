@@ -88,3 +88,31 @@ input:focus::placeholder {
     padding: 20px;
     border-radius: 10px;
 }
+
+#boton-aleatorio {
+    background-color: #16161D;
+    color: #ffffff;
+    border: none;
+    margin: 100px 175px;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+  
+#boton-aleatorio:hover {
+    color: white;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    -webkit-tap-highlight-color: transparent;
+    animation: rainbow 1s infinite linear;
+}
+@keyframes rainbow {
+    to {
+      filter: hue-rotate(360deg);
+    }
+}
+
+#boton-aleatorio:focus {
+    outline: none;
+}

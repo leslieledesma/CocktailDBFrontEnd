@@ -64,3 +64,11 @@ function displayAllData(data) {
         // box.appendChild(imagen);
     }
 }
+
+// FETCH Buscar aleatorio
+document.getElementById('boton-aleatorio').addEventListener('click', getRandom);
+function getRandom() {
+    fetch('https://leslieledesma.somee.com/api/cocktail/aleatorio')
+    .then((response) => response.json())
+    .then((data) => displayData(data));
+}
