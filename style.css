@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(51,43,74,1) 0%, rgba(152,102,168,1) 42%, rgba(220,249,255,1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#div-input {
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#input-bebida {
+    position: absolute;
+    margin: 50px 50px;
+    width: 275px;
+    padding: 5px;
+    border-radius: 25px;
+    text-indent: 10px;
+}
+
+#boton-buscar {
+    position: absolute;
+    background-color: #16161D;
+    color: #ffffff;
+    border: none;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    border: #16161D 2px solid;
+    cursor: pointer;
+}
+
+#boton-buscar:hover {
+    background-color: #16161d98;
+}
+
+#div-contenido {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img {
+    width: 350px;
+    margin-top: 25px;
+    border-radius: 100%;
+}
+
+.recetaTxt {
+    margin-top: 25px;
+    
+}
+
+.box {
+    margin-bottom: 100px;
+    padding: 50px;
+    /* background-color: rgba(240, 248, 255, 0.25); */
+    /* border-radius: 10px; */
+    border-radius: 300px;
+    width: inherit;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.textbox {
+    background-color: #ffffff85;
+    padding: 20px;
+    border-radius: 10px;
+}
